@@ -35,6 +35,16 @@ jobs:
           git_tag_prefix: ''
           version: ${{ env.CURRENT_PACKAGE_VERSION }}
 
+      # Create release draft
+      - name: release-draft
+        uses: release-drafter/release-drafter@v5
+        with:
+          name: ${{ env.CURRENT_PACKAGE_VERSION }}
+          version: ${{ env.CURRENT_PACKAGE_VERSION }}
+          tag: ${{ env.CURRENT_PACKAGE_VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # Publish to npm
       - name: publish-to-npm
         run: npm publish
