@@ -1,0 +1,9 @@
+Description: >
+  If you were working on fix/issues#1 branch,
+  pushing to that branch will auto label 'feature'.
+  ex) label_name: ['branch_name']
+
+feature: ['feature/*', 'feat/*']
+fix: ['fix/*', bug/*, 'bugfix/*']
+chore: chore/*
+documentation: docs/*
