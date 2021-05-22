@@ -2,7 +2,7 @@ const figlet = require('figlet');
 const emojiRegex = require('emoji-regex/RGI_Emoji.js');
 
 const myOriginalLibrary = (emoji) => {
-  const message = 'Nice work !';
+  const message = 'Awesome work !';
   const isEmoji = emojiRegex().exec(emoji);
 
   if (isEmoji) {
