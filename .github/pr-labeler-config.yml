@@ -1,6 +1,6 @@
 Description: >
   If you were working on fix/issues#1 branch,
-  pushing to that branch will auto label 'feature'.
+  pushing to that branch will auto label 'fix'.
   ex) label_name: ['branch_name']
 
 feature: ['feature/*', 'feat/*']
