@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 14.x
           registry-url: 'https://registry.npmjs.org'
+          # Config for scoped package
+          # always-auth: true
+          # scope: '@your-scope-name'
 
       # Install dependencies
       - name: install-dependencies

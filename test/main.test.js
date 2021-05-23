@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const myOriginalLibrary = require('../src');
+const myOriginalLibrary = require('../src/index.js');
 
 describe('myOriginalLibrary', () => {
   it('should pass emoji as argument', () => {
