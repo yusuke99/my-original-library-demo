@@ -4,6 +4,6 @@ Description: >
   ex) label_name: ['branch_name']
 
 feature: ['feature/*', 'feat/*']
-fix: ['fix/*', bug/*, 'bugfix/*']
+fix: ['fix/*', 'bug/*', 'bugfix/*']
 chore: chore/*
 documentation: docs/*

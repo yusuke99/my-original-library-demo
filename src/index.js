@@ -19,7 +19,7 @@ const myOriginalLibrary = (emoji) => {
 
   throw new Error(`
     ❌ Please pass emoji as argument
-    👉 ex) myOriginalLibrary("🎉")
+    👉 ex) myOriginalLibrary('🎉');
   `);
 };
 
